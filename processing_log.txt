@@ -1,0 +1,117 @@
+[2024-11-01 16:35:59] Starting processing attempt #1
+[2024-11-01 16:35:59] Loading JSON data...
+[2024-11-01 16:35:59] 
+Processing Status:
+Total diseases: 11023
+Already processed: 0
+Remaining: 11023
+Success rate: 0.00%
+    
+[2024-11-01 16:43:37] Starting processing attempt #1
+[2024-11-01 16:43:37] Loading JSON data...
+[2024-11-01 16:43:38] Total diseases to process: 11023
+[2024-11-01 16:43:42] Generated combined text for 11023 diseases
+[2024-11-01 16:43:42] Inserting combined text into LightRAG...
+[2024-11-01 16:44:04] Error inserting combined text into LightRAG: 429 Quota exceeded for quota metric 'Embed Content API requests' and limit 'Embed content request limit per minute for a region' of service 'generativelanguage.googleapis.com' for consumer 'project_number:562448874084'. [reason: "RATE_LIMIT_EXCEEDED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+metadata {
+  key: "quota_metric"
+  value: "generativelanguage.googleapis.com/embed_content_requests"
+}
+metadata {
+  key: "quota_location"
+  value: "us-west4"
+}
+metadata {
+  key: "quota_limit"
+  value: "EmbedContentRequestsPerMinutePerProjectPerRegion"
+}
+metadata {
+  key: "quota_limit_value"
+  value: "1500"
+}
+metadata {
+  key: "consumer"
+  value: "projects/562448874084"
+}
+, links {
+  description: "Request a higher quota limit."
+  url: "https://cloud.google.com/docs/quotas/help/request_increase"
+}
+]
+[2024-11-01 16:44:04] Waiting 60 seconds before retrying...
+[2024-11-01 16:45:04] Starting processing attempt #2
+[2024-11-01 16:45:04] Loading JSON data...
+[2024-11-01 16:45:05] Total diseases to process: 11023
+[2024-11-01 16:45:09] Generated combined text for 11023 diseases
+[2024-11-01 16:45:09] Inserting combined text into LightRAG...
+[2024-11-01 16:45:13] Error inserting combined text into LightRAG: 429 Quota exceeded for quota metric 'Embed Content API requests' and limit 'Embed content request limit per minute for a region' of service 'generativelanguage.googleapis.com' for consumer 'project_number:562448874084'. [reason: "RATE_LIMIT_EXCEEDED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+metadata {
+  key: "quota_metric"
+  value: "generativelanguage.googleapis.com/embed_content_requests"
+}
+metadata {
+  key: "quota_location"
+  value: "us-west4"
+}
+metadata {
+  key: "quota_limit"
+  value: "EmbedContentRequestsPerMinutePerProjectPerRegion"
+}
+metadata {
+  key: "quota_limit_value"
+  value: "1500"
+}
+metadata {
+  key: "consumer"
+  value: "projects/562448874084"
+}
+, links {
+  description: "Request a higher quota limit."
+  url: "https://cloud.google.com/docs/quotas/help/request_increase"
+}
+]
+[2024-11-01 16:45:13] Waiting 60 seconds before retrying...
+[2024-11-01 16:46:52] Starting processing attempt #1
+[2024-11-01 16:46:52] Loading JSON data...
+[2024-11-01 16:46:53] Total diseases: 11023, Processing in 221 batches
+[2024-11-01 16:46:53] Processing batch 1/221 (diseases 0-50)
+[2024-11-01 16:46:53] Generated combined text for batch of 50 diseases
+[2024-11-01 16:46:53] Inserting batch 1 into LightRAG...
+[2024-11-01 16:47:11] Error inserting batch 1: 429 Resource has been exhausted (e.g. check quota).
+[2024-11-01 16:47:11] Waiting 60 seconds before retrying...
+[2024-11-01 16:53:33] Starting processing attempt #1
+[2024-11-01 16:53:33] Loading JSON data...
+[2024-11-01 16:53:34] Total diseases: 11023, Processing in 552 batches
+[2024-11-01 16:53:34] Processing batch 1/552 (diseases 0-20)
+[2024-11-01 16:53:34] Generated combined text for batch of 20 diseases
+[2024-11-01 16:53:34] Inserting batch 1 into LightRAG...
+[2024-11-01 16:54:03] Error inserting batch 1: 429 Resource has been exhausted (e.g. check quota).
+[2024-11-01 16:54:03] Waiting 60 seconds before retrying...
+[2024-11-01 16:55:03] Starting processing attempt #2
+[2024-11-01 16:55:03] Loading JSON data...
+[2024-11-01 16:55:04] Total diseases: 11023, Processing in 552 batches
+[2024-11-01 16:55:04] Processing batch 1/552 (diseases 0-20)
+[2024-11-01 16:55:04] Generated combined text for batch of 20 diseases
+[2024-11-01 16:55:04] Inserting batch 1 into LightRAG...
+[2024-11-01 16:55:28] Error inserting batch 1: 429 Resource has been exhausted (e.g. check quota).
+[2024-11-01 16:55:28] Waiting 60 seconds before retrying...
+[2024-11-01 17:26:24] Starting processing attempt #1
+[2024-11-01 17:26:24] Loading JSON data...
+[2024-11-01 17:26:25] 
+Disease Information:
+Total diseases: 11023
+Complete diseases: 0
+Incomplete diseases: 11023
+Completion rate: 0.00%
+    
+[2024-11-01 17:26:25] Successfully completed all batches

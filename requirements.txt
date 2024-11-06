@@ -1,0 +1,17 @@
+accelerate
+aioboto3
+aiohttp
+graspologic
+hnswlib
+nano-vectordb
+networkx
+ollama
+openai
+pyvis
+tenacity
+tiktoken
+torch
+transformers
+xxhash
+google-generativeai
+# lmdeploy[all]
